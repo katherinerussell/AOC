@@ -1,0 +1,19 @@
+--- Jour 3 : Réfléchissez ---
+« Nos ordinateurs ont des problèmes, alors je ne sais pas du tout si nous avons des Historiens en chef en stock ! Mais vous pouvez aller voir dans l'entrepôt », dit le commerçant du magasin de location de toboggans du Pôle Nord, légèrement agacé. Les historiens partent jeter un coup d'œil.
+
+Le commerçant se tourne vers vous. « Y a-t-il une chance que vous puissiez voir pourquoi nos ordinateurs ont à nouveau des problèmes ? »
+
+L'ordinateur semble essayer d'exécuter un programme, mais sa mémoire (l'entrée de votre puzzle) est corrompue. Toutes les instructions ont été mélangées !
+
+Il semble que le but du programme soit de multiplier des nombres. Il le fait avec des instructions comme mul(X,Y), où X et Y sont des nombres de 1 à 3 chiffres. Par exemple, mul(44,46) multiplie 44 par 46 pour obtenir le résultat 2024. De même, mul(123,4) multiplie 123 par 4.
+
+Cependant, comme la mémoire du programme a été corrompue, il y a également de nombreux caractères invalides qui doivent être ignorés, même s'ils semblent faire partie d'une instruction mul. Des séquences telles que mul(4*, mul(6,9 !, ?(12,34), ou mul ( 2 , 4 ) ne font rien.
+
+Par exemple, considérons la section suivante de la mémoire corrompue :
+
+xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))
+Seules les quatre sections surlignées sont de véritables instructions mul. L'addition du résultat de chaque instruction produit 161 (2*4 + 5*5 + 11*8 + 8*5).
+
+Analysez la mémoire corrompue à la recherche d'instructions mul non corrompues. Qu'obtenez-vous si vous additionnez tous les résultats des multiplications ?
+
+La réponse à votre énigme est 159892
