@@ -2,3 +2,4 @@
 advent of code (projet)
 
 - Jour 1: OK.
+- Jour 2: à voir...
