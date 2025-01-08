@@ -1,2 +1,4 @@
 * AOC
 advent of code (projet)
+
+- Jour 1: OK.
